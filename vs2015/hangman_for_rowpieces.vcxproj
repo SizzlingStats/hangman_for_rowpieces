@@ -22,6 +22,7 @@
     <ClCompile Include="..\src\Guess.cpp" />
     <ClCompile Include="..\src\GuessTracker.cpp" />
     <ClCompile Include="..\src\HangmanGame.cpp" />
+    <ClCompile Include="..\src\Letter.cpp" />
     <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\MutableLetter.cpp" />
     <ClCompile Include="..\src\Word.cpp" />

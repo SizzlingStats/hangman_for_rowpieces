@@ -5,20 +5,11 @@ template<char L>
 class Letter
 {
 public:
-    Letter():
-        m_char(L)
-    {
-    }
+    Letter();
 
-    char GetChar() const
-    {
-        return(m_char);
-    }
+    char GetChar() const;
 
-    bool operator==(const Letter<L>& other) const
-    {
-        return(other.m_char == m_char);
-    }
+    bool operator==(const Letter<L>& other) const;
 
 protected:
     const char m_char;
